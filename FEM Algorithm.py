@@ -1,7 +1,6 @@
 import numpy as num
 import matplotlib.pyplot as plt
 
-#Constants
 class FEM:
     def __init__(self):
         self.ax, self.ay, self.az, self.nx, self.ny, self.nz = self.inputData()
